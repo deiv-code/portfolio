@@ -6,3 +6,6 @@
   <Header />
 </template>
 
+<style lang="scss">
+  @import 'primeicons/primeicons.css'
+</style>
