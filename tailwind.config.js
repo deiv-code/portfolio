@@ -8,6 +8,7 @@ export default {
     },
     animation: {
       fade: 'fadeIn .5s ease-in-out',
+      
     },
     extend: {},
   },
