@@ -2,7 +2,7 @@
   <header class="bg-white fixed w-full z-10">
     <nav class="flex items-center justify-between px-4 py-4 text-gray-600">
       <h3 class="font-sans font-bold text-xl tracking-widest hover:text-emerald">
-        <a href="">DAVID DUME</a>
+        <a href="" class="text-2xl"><span class="text-4xl">👋 </span>David Dume</a>
       </h3>
       <div class="md:block hidden">
         <ul class="flex">
@@ -20,11 +20,11 @@
           </li>
         </ul>
       </div>
-      <div class="md:hidden" @click="showMenu = !showMenu">
+      <div class="md:hidden text-2xl hover:cursor-pointer" @click="showMenu = !showMenu">
         <div :class="showMenu ? '' :'hidden'">
           <i class="pi pi-times" ></i> 
         </div>
-        <div  :class="showMenu ? 'hidden' :''">
+        <div class="text-2xl hover:cursor-pointer" :class="showMenu ? 'hidden' :''">
           <i class="pi pi-align-justify"></i>
         </div>
                
