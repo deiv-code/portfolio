@@ -1,5 +1,5 @@
 <template>
-    <div class="bg">
+    <section class="bg">
         <div class="bg-white p-3 absolute top-[400px] hidden lg:flex flex-col">
             <a href="" class="text-2xl my-2">
                 <i class="pi pi-linkedin hover:text-emerald-700"></i>
@@ -22,7 +22,7 @@
         <div class="text-center text-3xl animate-bounce">
             <i class="pi pi-arrow-down"></i>
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup lang="ts">

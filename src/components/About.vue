@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#FAFAFA]">
+    <section class="bg-[#FAFAFA]">
         <div class="text-center py-20">
             <h2 class="uppercase text-3xl font-bold tracking-wider">about me</h2>
             <div class="w-[20px] mx-auto bg-emerald-500 h-1 rounded-lg my-2" />
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup lang="ts">

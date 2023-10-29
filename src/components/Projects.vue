@@ -1,5 +1,5 @@
 <template>
-    <div class="xl:mx-[10%]">
+    <section class="xl:mx-[10%]">
         <div class="text-center py-20">
             <h2 class="uppercase text-3xl font-bold tracking-wider">projects</h2>
             <div class="w-[20px] mx-auto bg-emerald-500 h-1 rounded-lg my-6" />
@@ -20,7 +20,7 @@
 
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup lang="ts">
