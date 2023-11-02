@@ -4,7 +4,7 @@
             <a href="" class="text-2xl my-2">
                 <i class="pi pi-linkedin hover:text-emerald-700"></i>
             </a>
-            <a href="" class="text-2xl my-2">
+            <a href="https://github.com/DavidDume" class="text-2xl my-2">
                 <i class="pi pi-github hover:text-emerald-700 "></i>
             </a>
         </div>
@@ -12,7 +12,7 @@
             
             <div class="md:mx-[200px] xl:mx-[400px] text-center">
                 <h1 class="uppercase text-4xl md:text-6xl font-bold tracking-widest">hey, I'm David Dume</h1>
-                <p class="pt-10 pb-16 leading-6 md:text-xl tracking-wider mx-8">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                <p class="pt-10 pb-16 leading-6 md:text-xl tracking-wider mx-8">a passionate Web Developer with a foundational skill set in modern web technologies and a rampant enthusiasm for learning and innovation.</p>
                 <div class="transition duration-500 transform hover:scale-125 w-fit mx-auto">
                     <a href="#" class="uppercase py-3 px-14 text-lg text-white font-bold bg-emerald-500 rounded-md">Projects</a>
                 </div>

@@ -8,7 +8,7 @@
         <div class="xl:mx-20 mx-10" v-for="project in projects">
             <div class="lg:flex items-center sm:text-center mb-10">
                 <div class="mx-auto">
-                    <img :src="project.image" class="mx-auto" alt="">
+                    <img :src="project.image" class="max-w-[30rem] mx-auto" alt="">
                 </div>
                 <div class="lg:pl-20">
                     <h4 class="font-bold tracking-wider text-2xl my-10">{{ project.title }}</h4>
@@ -28,22 +28,16 @@
 
     const projects = ref([
         {
-            image: 'https://placehold.co/600x400',
+            image: 'src/assets/fantachatpc.png',
             title: 'Fanta Chat',
-            desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium unde assumenda maxime debitis? Qui magni nihil enim fuga placeat hic, ex temporibus vero neque, corrupti delectus doloremque quas atque ab?',
-            link: '/'
+            desc: "Designed for 'FantaCalcio' fans, this web app gives Serie A player insights and advice to the users, thanks to ChatGPT’s API. It's crafted with Vue.js, Nuxt.js for backend integration, styled with Tailwind CSS, and powered by the OpenAI API for chat and embeddings. During this project, I've honed my skills in Nuxt.js, dabbled in web scraping, and started navigating the world of vector databases, broadening my development toolkit.",
+            link: 'https://fantachat-daviddume.vercel.app/'
         },
         {
-            image: 'https://placehold.co/600x400',
-            title: 'Fanta Chat',
-            desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium unde assumenda maxime debitis? Qui magni nihil enim fuga placeat hic, ex temporibus vero neque, corrupti delectus doloremque quas atque ab?',
-            link: '/'
-        },
-        {
-            image: 'https://placehold.co/600x400',
-            title: 'Fanta Chat',
-            desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium unde assumenda maxime debitis? Qui magni nihil enim fuga placeat hic, ex temporibus vero neque, corrupti delectus doloremque quas atque ab?',
-            link: '/'
+            image: 'src/assets/moviespc.png',
+            title: 'Nuxt Movies',
+            desc: 'This is the very first app i made using NuxtJS. Its a simple webapp that lets the users search for their favourite movies using MovieDB APIs. While building this app i learned how to build a functional website with NuxtJS and how to use routes.',
+            link: 'https://nuxt-movies-eta.vercel.app/'
         },
     ])
 </script>

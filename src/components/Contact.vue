@@ -5,7 +5,7 @@
                 <h4 class="text-[#CFF5FF] uppercase text-xl font-bold tracking-widest">contact me</h4>
                 <h1 class="pt-10 text-3xl">
                     <i class="pi pi-send text-[#F66565] px-2"></i>
-                    <a href="" class="hover:underline text-[#EDFDF5]">dumedavid11@gmail.com</a>
+                    <a href="mailto: dumedavid11@gmail.com" class="hover:underline text-[#EDFDF5]">dumedavid11@gmail.com</a>
                 </h1>
             </div>
         </div>
