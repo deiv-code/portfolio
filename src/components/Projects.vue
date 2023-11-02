@@ -28,13 +28,13 @@
 
     const projects = ref([
         {
-            image: '../assets/fantachatpc.png',
+            image: '/src/assets/fantachatpc.png',
             title: 'Fanta Chat',
             desc: "Designed for 'FantaCalcio' fans, this web app gives Serie A player insights and advice to the users, thanks to ChatGPT’s API. It's crafted with Vue.js, Nuxt.js for backend integration, styled with Tailwind CSS, and powered by the OpenAI API for chat and embeddings. During this project, I've honed my skills in Nuxt.js, dabbled in web scraping, and started navigating the world of vector databases, broadening my development toolkit.",
             link: 'https://fantachat-daviddume.vercel.app/'
         },
         {
-            image: '../assets/moviespc.png',
+            image: '/src/assets/moviespc.png',
             title: 'Nuxt Movies',
             desc: 'This is the very first app i made using NuxtJS. Its a simple webapp that lets the users search for their favourite movies using MovieDB APIs. While building this app i learned how to build a functional website with NuxtJS and how to use routes.',
             link: 'https://nuxt-movies-eta.vercel.app/'
