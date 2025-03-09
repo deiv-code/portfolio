@@ -165,7 +165,7 @@
                 class="rounded-xl overflow-hidden shadow-2xl h-[300px] flex items-center justify-center bg-white"
               >
                 <img
-                  src="../assets/Shardic.png"
+                  src="../assets/shardic.png"
                   class="w-full h-full object-contain p-4"
                   alt="Shardic Bot"
                 />
