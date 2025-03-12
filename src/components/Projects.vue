@@ -225,13 +225,16 @@
                   >Computer Vision</span
                 >
               </div>
-              <!-- Coming soon badge instead of link -->
-              <span
-                class="inline-flex items-center px-4 py-2 bg-gray-200 text-gray-700 rounded-lg font-medium"
+              <a
+                href="https://apps.apple.com/us/app/chartwiz/id6742327246"
+                class="inline-flex items-center px-6 py-3 bg-emerald-500 text-white font-medium rounded-lg"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                Visit App
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5 mr-2"
+                  class="h-5 w-5 ml-2"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -240,11 +243,10 @@
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
                   />
                 </svg>
-                Coming Soon
-              </span>
+              </a>
             </div>
           </div>
         </div>
