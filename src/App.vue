@@ -79,6 +79,11 @@
   text-align: center;
   margin-top: 2rem;
   color: var(--text-secondary);
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+  }
 }
 
 .link {
@@ -110,11 +115,19 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 4rem 1rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 }
 
 .profile {
   text-align: left;
   margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 2rem;
+  }
 
   .avatar {
     width: 80px;
@@ -127,6 +140,10 @@ body {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.75rem;
+    }
   }
 
   .social-links {
@@ -147,12 +164,21 @@ body {
   .bio {
     color: var(--text-secondary);
     max-width: 500px;
+
+    @media (max-width: 768px) {
+      font-size: 0.95rem;
+    }
   }
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .projects {
@@ -169,6 +195,12 @@ h2 {
     padding: 0.5rem;
     border-radius: 4px;
     transition: background-color 0.2s;
+    flex-wrap: wrap;
+
+    @media (max-width: 480px) {
+      font-size: 0.9rem;
+      padding: 0.75rem 0.5rem;
+    }
 
     &:hover {
       background-color: var(--hover-color);
@@ -176,6 +208,10 @@ h2 {
 
     .project-emoji {
       font-size: 1.2rem;
+
+      @media (max-width: 480px) {
+        font-size: 1rem;
+      }
     }
 
     .project-name {
@@ -184,11 +220,21 @@ h2 {
 
     .project-desc {
       color: var(--text-secondary);
+
+      @media (max-width: 480px) {
+        width: 100%;
+        margin-left: 1.75rem;
+        margin-top: 0.25rem;
+      }
     }
 
     .arrow {
       margin-left: auto;
       color: var(--text-secondary);
+
+      @media (max-width: 480px) {
+        display: none;
+      }
     }
   }
 }
