@@ -5,7 +5,6 @@
 <template>
   <div class="container">
     <header class="profile">
-      <img src="/avatar.jpg" alt="Profile" class="avatar" />
       <h1>David</h1>
       <div class="social-links">
         <a href="https://x.com/realdume" class="social-link"
