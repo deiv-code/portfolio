@@ -63,6 +63,11 @@
         </a>
       </div>
       <p class="footer">+ many more</p>
+      <p class="footer">
+        dm me on
+        <a href="https://x.com/realdume" class="link" target="_blank">x</a>
+        to chat about your project
+      </p>
     </main>
   </div>
 </template>
@@ -74,6 +79,11 @@
   text-align: center;
   margin-top: 2rem;
   color: var(--text-secondary);
+}
+
+.link {
+  color: var(--text-primary);
+  text-decoration: underline;
 }
 
 :root {
